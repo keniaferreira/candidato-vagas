@@ -97,6 +97,13 @@
                                 </div>
                                 <!-- Text input-->
                                 <div class="form-group">
+                                    <div class="col-md-3 xs-12 control-label" for="complemento">Complemento:</div>  
+                                    <div class="col-md-6 xs-12">
+                                        <input type="text" name="complemento" id="complemento" class="form-control form-post" carregar-dado="complemento">
+                                    </div>
+                                </div>
+                                <!-- Text input-->
+                                <div class="form-group">
                                     <div class="col-md-3 xs-12 control-label" for="bairro">Bairro:</div>  
                                     <div class="col-md-6 xs-12">
                                         <input type="text" name="bairro" id="bairro" class="form-control form-post" carregar-dado="bairro">
