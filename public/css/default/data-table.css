@@ -1,0 +1,33 @@
+table{
+    width:100%;
+}
+#listar_filter{
+    float:right;
+}
+#listar_paginate{
+    float:right;
+}
+table label {
+    display: inline-flex;
+    margin-bottom: .5rem;
+    margin-top: .5rem;
+   
+}
+
+table label select{
+    margin: 0 5px !important;    
+   
+}
+
+select, select.form-control {
+	-webkit-appearance: auto !important;
+}
+
+table label input{
+    margin: 0 5px !important;
+   
+}
+
+.form-check, label {
+	font-size: 0 !important;
+}

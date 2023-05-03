@@ -1,0 +1,26 @@
+body {
+	background-color: #fff;
+}
+.cpanel-login {
+	margin-top: 30px;
+}
+.titulo {
+	color: #fff;
+}
+.linha-titulo {
+	background-color: #fff;
+}
+.bloco-login {
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	background-color: #fff;
+	padding-top: 20px;
+}
+.logo_title {
+	color: #5D5D5D;
+}
+.links {
+	color: #fff;
+}
+.links a{
+	color: #fff;
+}

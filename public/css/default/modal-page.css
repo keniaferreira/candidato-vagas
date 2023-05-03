@@ -1,0 +1,45 @@
+.modal-fundo {
+  position: fixed; /* Stay in place */
+  z-index: 10000; /* Sit on top */
+  padding-top: 20px; /* Location of the box */
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.8); /* Black w/ opacity */
+}
+
+.modal-conteudo-pagina {
+    margin: 0 auto;
+    display: block;
+    max-width: 90%;
+    border-radius: 7px;
+    background-color: #fff;
+}
+
+.modal-conteudo-pagina form {
+    padding-top: 30px;
+}
+
+.btn-modal-fechar {
+  border:none;
+  background-color: transparent;
+  position: top;
+  padding-right: 10px;
+  float: right; /*desacopla o botão do resto dos componentes*/
+}
+
+.btn-modal-close-alert {
+  border:none;
+  background-color: transparent;
+  position: inherit;
+  padding-right: 10px;
+  margin-top: 12px;
+  float: right; /*desacopla o botão do resto dos componentes*/
+  z-index: 100000
+}
