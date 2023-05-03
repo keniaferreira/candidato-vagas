@@ -2,18 +2,20 @@
 
 ## Como Rodar o aplicativo:
 
-### 1 - Criar um banco de dados no Mysql chamado candidato-vagas com a collation utf8mb4_unicode_ci
+## 1 - Criar um banco de dados no Mysql chamado candidato-vagas com a collation utf8mb4_unicode_ci
 
-### 2 - No terminal, executar os comandos
+## 2 - No terminal, executar os comandos:
 
-### composer install
+## composer install
 
-### php artisan migrate
+## php artisan migrate
 
-### php artisan db:seed --class=AdminSeed
+## php artisan db:seed --class=AdminSeed
 
-### php artisan db:seed --class=VagasSeed
+## php artisan db:seed --class=VagasSeed
 
-### php artisan db:seed --class=CandidatosSeed
+## php artisan db:seed --class=CandidatosSeed
 
-### php artisan db:seed --class=CandidaturasSeed
+## php artisan db:seed --class=CandidaturasSeed
+
+## Usuário e senha criados para o teste: admin admin

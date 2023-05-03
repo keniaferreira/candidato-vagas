@@ -30,7 +30,7 @@ class CandidatoFormRequest extends FormRequest
     'sobrenome'          => 'required|max:29',
     'cpf_cnpj'           => 'required|max:18',
     'data_nascimento'    => 'required|max:18',
-    'email'              => 'required|max:18',
+    'email'              => 'required|max:60',
     'ddd'                => 'required|max:3',
     'cep'                => 'required|max:10',
     'rua'                => 'required|max:80',
